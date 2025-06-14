@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tableau de bord - Crédit Agricole</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>Crédit Agricole</h2>
+      <ul>
+        <li><a href="dashboard.html">Accueil</a></li>
+        <li><a href="#">Mes comptes</a></li>
+        <li><a href="#">Mes paiements</a></li>
+        <li><a href="#">Mes services</a></li>
+      </ul>
+    </aside>
+    <main class="main-dashboard">
+      <header class="dashboard-header">
+        <span>Tableau de bord</span>
+        <a href="index.html" class="logout">Déconnexion</a>
+      </header>
+      <section class="account-info">
+        <h3>Solde du compte</h3>
+        <p class="balance">3 250,00 €</p>
+      </section>
+      <section class="transactions">
+        <h3>Transactions récentes</h3>
+        <ul>
+          <li>Dépôt de chèque <span class="credit">+1 200,00 €</span></li>
+          <li>Paiement carte <span class="debit">-50,00 €</span></li>
+          <li>Prélèvement <span class="debit">-200,00 €</span></li>
+          <li>Virement reçu <span class="credit">+300,00 €</span></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

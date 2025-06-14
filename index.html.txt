@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crédit Agricole - Banque en ligne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Crédit Agricole</div>
+    <nav>
+      <ul>
+        <li><a href="#">Comptes / Accounts</a></li>
+        <li><a href="#">Cartes / Cards</a></li>
+        <li><a href="#">Prêts / Loans</a></li>
+        <li><a href="#">Épargne / Savings</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="login-btn">Connexion / Login</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>La banque à votre écoute<br><span class="en">The bank that listens</span></h1>
+      <p>Des solutions pour vos projets financiers<br><span class="en">Solutions to support your financial goals</span></p>
+    </div>
+    <div class="hero-img"></div>
+  </section>
+
+  <section class="services">
+    <h2>Nos Services / Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Banque en ligne<br><span class="en">Online Banking</span></h3>
+        <p>Gérez vos comptes à tout moment.<br><span class="en">Manage your accounts anytime, anywhere.</span></p>
+      </div>
+      <div class="card">
+        <h3>Cartes bancaires<br><span class="en">Credit Cards</span></h3>
+        <p>Choisissez la carte qui vous convient.<br><span class="en">Find the card that fits your needs.</span></p>
+      </div>
+      <div class="card">
+        <h3>Prêts<br><span class="en">Loans</span></h3>
+        <p>Des solutions souples pour financer vos projets.<br><span class="en">Flexible options for your plans.</span></p>
+      </div>
+      <div class="card">
+        <h3>Épargne<br><span class="en">Savings</span></h3>
+        <p>Faites fructifier votre argent en toute sécurité.<br><span class="en">Grow your savings confidently.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="login-section">
+    <h2>Espace Client / Customer Login</h2>
+    <form>
+      <input type="text" placeholder="Identifiant / User ID" required />
+      <input type="password" placeholder="Mot de passe / Password" required />
+      <button type="submit">Connexion / Log in</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crédit Agricole. Site fictif à usage de démonstration.</p>
+  </footer>
+</body>
+</html>credit-agricole-site/
++-- index.html           ? Page d'accueil
++-- dashboard.html       ? Tableau de bord client
++-- style.css            ? Styles partagés
+<a href="dashboard.html" class="login-btn">Connexion / Login</a>
